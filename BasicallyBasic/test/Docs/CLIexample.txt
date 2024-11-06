@@ -1,0 +1,26 @@
+' Runs over simple examples for CLI testing
+
+(1 + 2) * 10
+
+LET value = 10
+
+LET list = [10, 20, 30]
+
+APPEND(list, value)
+
+IF 10 > 5 THEN 9 END
+
+IF 10 == 11 THEN 10 ELSEIF 10 == 10 THEN 0 END
+
+IF 0 > 1 THEN 0 ELSE 1 END
+
+IF TRUE THEN; "Hello"; END
+
+FOR LET i = 0 TO 2 STEP 1 THEN; PRINTLN("Hello"); END
+
+LET value = 2
+
+WHILE value == 2 THEN; LET value = value - 1; PRINTLN(value); END
+
+DEF add(value1, value2); RETURN value1 + value2; END
+add(1, 2)
