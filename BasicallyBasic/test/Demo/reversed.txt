@@ -1,0 +1,2 @@
+Reversed string quack: kcauq
+ We just wrote it to a file
