@@ -24,49 +24,6 @@ Lastly, the interpreter using the generated AST, is where the code is actually e
 
 ### Directory Structure
 
-Now that you are caught up with what BasicallyBASIC is and are knowledgeable about its basic implementation, we need to ensure that you know where to find everything. Below is the directory structure of all the folders within the zip file:
-
-
-├── BasicallyBasic
-
-│   ├── prod
-
-│   ├── src
-
-│   │   ├── AbstractSyntaxTree
-
-│   │   │   ├── Expressions
-
-│   │   │   └── Statements
-
-│   │   ├── Interpreter
-
-│   │   ├── Language
-
-│   │   ├── Lexer
-
-│   │   ├── META-INF
-
-│   │   └── Parser
-
-│   └── test
-
-│       ├── Cases
-
-│       ├── Demo
-
-│       └── Docs
-
-├── External Libraries
-
-├── Installation
-
-└── VSCode Extension
-
-    ├── out
-    
-    └── syntaxes
-
 To start from the top, the `BasicallyBasic` directory holds all the code pertaining to the project, have three main directories within it. The `prod` folder contains the `.jar` file and is the actual production code that you can run. The `src` directory contains all the source code of the project, the directories inside of it are Java packages that contain related code close together for better file management. The sub-directory `test` holds all the testing code of the language, including the test cases to prove the language validity, the demo code from the video, and the examples found within the User Manual section.
 
 Moving onto `External Libraries`, it contains only one library that was needed to implement BasicallyBASIC. The library inside of it is used for Java’s BigDecimal exponentiation, as Java’s Number classes do not natively support it – see the Design section if curious about its implementation.
